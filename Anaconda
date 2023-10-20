@@ -1,0 +1,15 @@
+// 파이썬 아나콘다 기본 명령어
+
+1. 가상 환경 목록 확인
+- conda env list
+
+2. 가상 환경 생성
+- conda create -n <가상환경명> or conda create -n <가상환경명> python=<버전>
+
+3. 가상환경 활성화 & 가상환경 비활성화
+- conda activate <가상환경명> or activate <가상환경명>
+
+- conda deactivate or deactivate
+
+4. 가상 환경 삭제
+- conda env remove -n <가상환경명>
