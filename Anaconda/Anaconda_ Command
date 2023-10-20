@@ -1,0 +1,31 @@
+// 자주 사용하는 Anacoda Command
+
+1. 가상환경 목록 확인
+
+- conda env list
+
+2. 가상 환경 생성
+
+- conda create -n <가상환경명> or conda create -n <가상환경명> python=<버전>
+
+3. 가상 환경 활성화 , 가상 환경 비활성화
+
+- conda activate <가상환경명> or activate <가상환경명>
+
+- conda deactivate or deactivate
+
+4. 가상 환경 삭제
+
+- conda env remove -n <가상환경명>
+
+5. 사용중인 가상 환경에 설치되어 있는 패키지 목록 확인
+
+- conda list
+
+6. 사용 중인 가상 환경에 패키지 설치하기
+
+- conda install <패키지명>
+
+7. 사용 중인 가상 환경에서 패키지 제거 하기
+
+- conda uninstall <패키지명>
